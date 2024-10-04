@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Recipe Management Application</h1>
+    
+    <h2>All Recipes</h2>
+    <div id="recipe-list"></div>
+
+    <h2>Create a New Recipe</h2>
+    <form id="recipe-form">
+        <label>Title:</label>
+        <input type="text" id="title" required><br><br>
+        
+        <label>Ingredients:</label>
+        <input type="text" id="ingredients" placeholder="Comma separated ingredients" required><br><br>
+        
+        <label>Instructions:</label>
+        <textarea id="instructions" required></textarea><br><br>
+        
+        <label>Cuisine:</label>
+        <input type="text" id="cuisine" required><br><br>
+        
+        <button type="submit">Create Recipe</button>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>
+    
